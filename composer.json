@@ -1,0 +1,20 @@
+{
+    "name": "omar/megustapdf",
+    "autoload": {
+        "psr-4": {
+            "Omar\\Megustapdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "omar"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "^1.1",
+        "mikehaertl/php-pdftk": "^0.13.0",
+        "dompdf/dompdf": "^2.0",
+        "tecnickcom/tcpdf": "^6.6",
+        "mpdf/mpdf": "^8.2"
+    }
+}
